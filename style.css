@@ -4,6 +4,7 @@
 --cinza-medio: hsl(216, 12%, 54%);
 --azul-escuro: hsl(213, 19%, 18%);
 --azul-muito-escuro: hsl(216, 12%, 8%);
+--laranja: hsl(25, 97%, 53%);
 }
 
 body {
@@ -26,6 +27,23 @@ body {
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 20px;
+    color: var(--cinza-claro);
+}
+
+.texto {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    line-height: 18px;
+    color: var(--cinza-medio);
 }
 
 
