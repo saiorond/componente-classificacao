@@ -1,9 +1,31 @@
 :root {
-    
+--branco: hsl(0, 0%, 100%);
+--cinza-claro: hsl(217, 12%, 63%);
+--cinza-medio: hsl(216, 12%, 54%);
+--azul-escuro: hsl(213, 19%, 18%);
+--azul-muito-escuro: hsl(216, 12%, 8%);
 }
 
 body {
     font-family: 'Overpass', sans-serif;
+    background: var(--azul-muito-escuro);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    width: 25em;
+    height: 20em;
+    background: var(--azul-escuro);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 
