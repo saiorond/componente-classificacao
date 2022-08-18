@@ -35,7 +35,7 @@ body {
     font-size: 25px;
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: var(--cinza-claro);
 }
 
@@ -44,11 +44,24 @@ body {
     font-family: 'Overpass', sans-serif;
     line-height: 18px;
     color: var(--cinza-medio);
+    text-align: justify;
+}
+
+
+.enviar {
+    
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
 }
 
 
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
