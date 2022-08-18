@@ -48,8 +48,13 @@ body {
 }
 
 
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
 .enviar {
-    
+    font-size: 16px;
     background-color: var(--laranja);
     color: var(--branco);
     width: 100px;
