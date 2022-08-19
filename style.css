@@ -81,12 +81,13 @@ body {
 }
 
 .botao {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .enviar {
+    text-align: center;
     font-family: 'Overpass', sans-serif;
     font-size: 16px;
     background-color: var(--laranja);
@@ -95,6 +96,7 @@ body {
     height: 40px;
     border: none;
     border-radius: 20px;
+    text-decoration: none;
 }
 
 .enviar:hover {
@@ -103,8 +105,16 @@ body {
 }
 
 .agradecimento {
-    margin-bottom: 160px;
+    margin-bottom: 120px;
     margin-left: 70px;
+}
+
+.texto_agradecimento {
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    line-height: 18px;
+    color: var(--cinza-medio);
+    text-align: center;
 }
 
 .attribution { 
