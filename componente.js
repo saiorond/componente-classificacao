@@ -1,8 +1,10 @@
-const botaoEnviar = document.querySelector("[data-enviar]");
+const botaoUm = document.querySelector("[data-um]");
+const botaoDois = document.querySelector("[data-dois]");
+const botaoTres = document.querySelector("[data-tres]");
+const botaoQuatro = document.querySelector("[data-quatro]");
+const botaoCinco = document.querySelector("[data-cinco]");
 
 function telaAgradecimento() {
-    const telaContainer = document.createAttribute("div");
-    telaContainer.classList.add("agradecimento")
 }
 
 botaoEnviar.addEventListener("click", telaAgradecimento)
