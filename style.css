@@ -73,6 +73,7 @@ body {
 .opcoes:hover {
     background-color: var(--laranja);
     color: var(--branco);
+    cursor: pointer;
 }
 
 .opcoes:active {
@@ -99,6 +100,10 @@ body {
     text-decoration: none;
 }
 
+.enviar a {
+
+}
+
 .enviar:hover {
     background-color: var(--branco);
     color: var(--laranja);
@@ -118,8 +123,10 @@ body {
 }
 
 .attribution { 
-    font-size: 11px; 
+    color: var(--cinza-medio);
+    font-size: 12px; 
     text-align: center; 
+
 }
 
 .attribution a { 
