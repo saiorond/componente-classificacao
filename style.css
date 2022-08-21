@@ -76,7 +76,7 @@ body {
     cursor: pointer;
 }
 
-.opcoes:active {
+.opcoes:focus {
     background-color: var(--cinza-claro);
     color: var(--branco);
 }
@@ -98,10 +98,6 @@ body {
     border: none;
     border-radius: 20px;
     text-decoration: none;
-}
-
-.enviar a {
-
 }
 
 .enviar:hover {

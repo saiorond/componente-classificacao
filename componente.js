@@ -4,7 +4,8 @@ const botaoTres = document.querySelector("[data-tres]");
 const botaoQuatro = document.querySelector("[data-quatro]");
 const botaoCinco = document.querySelector("[data-cinco]");
 
-function telaAgradecimento() {
-}
+botaoEnviar.addEventListener("click", mostraClassificacao);
 
-botaoEnviar.addEventListener("click", telaAgradecimento)
+function mostraClassificacao() {
+    
+}
