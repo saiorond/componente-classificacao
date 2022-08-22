@@ -1,13 +1,22 @@
-const todosBotoes= document.querySelectorAll("#data-botao").values;
+const todosBotoes = document.querySelectorAll(".opcoes");
+const submit = document.querySelector(".enviar");
+const resultado = document.querySelector(".span_value");
+const bloco = document.querySelector(".caixa");
+const outraTela = document.querySelector(".segunda_tela");
 
-function mostraClassificacao() {
-    const botao = todosBotoes;
-        botao.addEventListener("click", classificacaoNaTela);
-    
-}
+let selected = "";
 
-function classificacaoNaTela () {
-    const qualClassificacao = document.getElementById("agradecimentos");
-    qualClassificacao.innerHTML = `Você selecionou ${botao} de 5`;   
-    mostraClassificacao();
-}
+todosBotoes.forEach(btn => {
+    btn.addEventListener("click", (e) => {
+        removeSelectedClasses()
+        selected = e.target.textContent
+        e.target.classList.add("selected")
+    })
+})
+
+
+submit.addEventListener("click", () => {
+    resultado.textContent = value;
+    bloco.style.display = "none";
+    outraTela.style.display = "flex";
+})

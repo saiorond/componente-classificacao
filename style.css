@@ -105,10 +105,14 @@ body {
     color: var(--laranja);
 }
 
+.segunda_tela {
+    flex-direction: column;
+}
+
 .agradecimento {
     width: 200px;
     height: 130px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-left: 45px;
 }
 
@@ -130,7 +134,7 @@ body {
     text-align: center;
 }
 
-.classificao-escolhida {
+.classificao_escolhida {
     font-size: 16px;
     font-family: 'Overpass', sans-serif;
     line-height: 18px;

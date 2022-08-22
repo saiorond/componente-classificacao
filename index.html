@@ -13,42 +13,50 @@
   
   <title>Frontend Mentor | Componente de classificação interativo</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-  <div class="caixa">
-    <img src="./images/icon-star.svg" alt="estrela">
-      
-    <h1 class="titulo">Como foi sua experiência?</h1>
+    <div class="caixa">
+      <div>
+        <img class="icone" src="./images/icon-star.svg" alt="estrela">
+      </div>
 
-      <p class="texto">Por favor, nos conte a sua experiência com o nosso atendimento. Toda avaliação é bem vinda para aperfeiçoarmos nosso serviço.</p>
-      
-    <nav id="classificacao">
-        <input type="button" value="1" class="opcoes" id="botao"></input>
-        <input type="button" value="2" class="opcoes" id="botao"></input>
-        <input type="button" value="3" class="opcoes" id="botao"></input>
-        <input type="button" value="4" class="opcoes" id="botao"></input>
-        <input type="button" value="5" class="opcoes" id="botao"></input>
-    </nav>
+      <h1 class="titulo">Como foi sua experiência?</h1>
+
+        <p class="texto">Por favor, nos conte a sua experiência com o nosso atendimento. Toda avaliação é bem vinda para aperfeiçoarmos nosso serviço.</p>
         
-      <li class="botao" data-enviar>
-        <a href="agradecimento.html" type="text" class="enviar">Enviar</a>
-      </li>
+      <div id="classificacao">
+          <input type="button" value="1" class="opcoes" id="botao"></input>
+          <input type="button" value="2" class="opcoes" id="botao"></input>
+          <input type="button" value="3" class="opcoes" id="botao"></input>
+          <input type="button" value="4" class="opcoes" id="botao"></input>
+          <input type="button" value="5" class="opcoes" id="botao"></input>
+      </div>  
+        
+      <div class="botao">
+        <button class="enviar">Enviar</button>
+      </div>
     </div>
-  </div>
 
-  <!-- Rating state end -->
+    <div class="segunda_tela">
+    <div class="caixa">
+        <img src="./images/illustration-thank-you.svg" alt="Ilustração de obrigada" class="agradecimento">
 
-  <!-- Thank you state start -->
+        <div id="classificacao_escolhida" class="classificao_escolhida">
+          Você selecionou a opção 4 de 5
+        </div>
 
-  <!-- Thank you state end -->
-
+        <h1 class="titulo_dois">Obrigado!</h1>
+        
+        <p class="texto_agradecimento">Apreciamos o seu tempo para nos enviar uma classificação. Conte conosco para mais algum suporte.</p>
+      </div>
+    </div>
+    
+    <div class="attribution">
+      Desafiado por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Realizado <a href="#">Débora Saioron</a>.
+    </div>
   
-  <div class="attribution">
-    Desafiado por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Realizado <a href="#">Débora Saioron</a>.
-  </div>
 
-  
+  <script src="./componente.js"></script>
 </body>
 </html>
