@@ -1,13 +1,13 @@
-const todosBotoes= document.querySelectorAll("[data-botao]").values;
-
+const todosBotoes= document.querySelectorAll("#data-botao").values;
 
 function mostraClassificacao() {
-    for (const botao of todosBotoes) {
+    const botao = todosBotoes;
         botao.addEventListener("click", classificacaoNaTela);
-    }
+    
 }
 
 function classificacaoNaTela () {
-    const qualClassificacao = document.getElementById("agradecimento");
+    const qualClassificacao = document.getElementById("agradecimentos");
     qualClassificacao.innerHTML = `Você selecionou ${botao} de 5`;   
+    mostraClassificacao();
 }
