@@ -1,8 +1,8 @@
 const todosBotoes = document.querySelectorAll(".opcoes");
 const submit = document.querySelector(".enviar");
-const resultado = document.querySelector(".span_value");
-const bloco = document.querySelector(".caixa");
-const outraTela = document.querySelector(".segunda_tela");
+const resultado = document.querySelector(".classificacao_escolhida");
+const box1 = document.getElementById("boxum");
+const box2 = document.getElementById("boxdois");
 
 let selected = "";
 
@@ -16,7 +16,14 @@ todosBotoes.forEach(btn => {
 
 
 submit.addEventListener("click", () => {
-    resultado.textContent = value;
-    bloco.style.display = "none";
-    outraTela.style.display = "flex";
+    
+    resultado.textContent = `Você selecionou ${selected} de 5`
+    box1.classList.add("d-none");
+    box2.classList.remove("d-none");
 })
+
+function removeSelectedClasses() {
+    botoes.forEach(btn => {
+        btn.classList.remove("selected")
+    })
+}

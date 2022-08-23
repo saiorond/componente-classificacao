@@ -15,6 +15,8 @@
 
 </head>
 <body>
+<div class="container">
+  <div id="boxum">
     <div class="caixa">
       <div>
         <img class="icone" src="./images/icon-star.svg" alt="estrela">
@@ -24,33 +26,36 @@
 
         <p class="texto">Por favor, nos conte a sua experiência com o nosso atendimento. Toda avaliação é bem vinda para aperfeiçoarmos nosso serviço.</p>
         
-      <div id="classificacao">
-          <input type="button" value="1" class="opcoes" id="botao"></input>
-          <input type="button" value="2" class="opcoes" id="botao"></input>
-          <input type="button" value="3" class="opcoes" id="botao"></input>
-          <input type="button" value="4" class="opcoes" id="botao"></input>
-          <input type="button" value="5" class="opcoes" id="botao"></input>
+      <div id="classificacao" class="botoes">
+          <button class="opcoes" id="botao">1</button>
+          <button class="opcoes" id="botao">2</button>
+          <button class="opcoes" id="botao">3</button>
+          <button class="opcoes" id="botao">4</button>
+          <button class="opcoes" id="botao">5</button>
       </div>  
-        
+
       <div class="botao">
         <button class="enviar">Enviar</button>
       </div>
     </div>
+    </div>
 
-    <div class="segunda_tela">
-    <div class="caixa">
+    <div id="boxdois" class="d-none">
+      <div class="caixa">
         <img src="./images/illustration-thank-you.svg" alt="Ilustração de obrigada" class="agradecimento">
 
-        <div id="classificacao_escolhida" class="classificao_escolhida">
-          Você selecionou a opção 4 de 5
+        <div id="classificacao_escolhida" class="classificacao_escolhida">
+          
         </div>
 
         <h1 class="titulo_dois">Obrigado!</h1>
         
         <p class="texto_agradecimento">Apreciamos o seu tempo para nos enviar uma classificação. Conte conosco para mais algum suporte.</p>
+
       </div>
     </div>
-    
+  </div>
+
     <div class="attribution">
       Desafiado por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Realizado <a href="#">Débora Saioron</a>.
