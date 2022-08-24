@@ -25,7 +25,6 @@
       <h1 class="titulo">Como foi sua experiência?</h1>
 
         <p class="texto">Por favor, nos conte a sua experiência com o nosso atendimento. Toda avaliação é bem vinda para aperfeiçoarmos nosso serviço.</p>
-        <p id="error-msg" class="error-msg d-none">Por favor, selecione uma opção!</p>
         
       <div id="classificacao" class="botoes">
           <button class="opcoes" id="botao">1</button>
@@ -41,13 +40,15 @@
     </div>
     </div>
 
-    <div id="boxdois" class="d-none">
+    <div id="boxdois" class="boxdois hidden">
       <div class="caixa">
         <img src="./images/illustration-thank-you.svg" alt="Ilustração de obrigada" class="agradecimento">
 
-        <div id="classificacao_escolhida" class="classificacao_escolhida">
-          
-        </div>
+        <p class="classificacao_escolhida">
+          Você seleciocou 
+          <span id="escolha"></span>
+          de 5
+        </p>
 
         <h1 class="titulo_dois">Obrigado!</h1>
         
