@@ -33,17 +33,16 @@ body {
 
 .icone {
     background-color: hsl(213, 20%, 24%);
-    width: 25px;
-    padding-left: 8px;
-    padding-top: 6px;
+    padding: 10px;
     border-radius: 30px;
+    box-sizing: border-box;
 }
 
 .titulo {
     font-size: 20px;
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
     color: var(--branco);
 }
@@ -87,10 +86,10 @@ body {
     justify-content: center;
 }
 
-.enviar {
+.enviar, .classificar_novamente {
     text-align: center;
     font-family: 'Overpass', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     background-color: var(--laranja);
     color: var(--branco);
     width: 300px;
@@ -99,17 +98,22 @@ body {
     border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 3px;
 }
 
-.enviar:hover {
+.enviar:hover, .classificar_novamente:hover {
     background-color: var(--branco);
     color: var(--laranja);
     font-weight: bold;
     cursor: pointer;
 }
 
-.segunda_tela {
+.obg {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .agradecimento {
@@ -135,28 +139,30 @@ body {
     line-height: 18px;
     color: var(--cinza-medio);
     text-align: center;
+    margin-bottom: 10px;
 }
+
 .hidden {
     display: none;
 }
 
 .classificacao_escolhida {
-    font-size: 16px;
+    width: 180px;
+    font-size: 15px;
+    background: hsl(212, 17%, 23%);
+    border-radius: 30px;
     font-family: 'Overpass', sans-serif;
     color: var(--laranja);
     text-align: center;
-    border: solid 1px var(--cinza-claro);
-    border-radius: 10px;
-    padding: 5px;
+    padding: 2px;
 }
 
 .attribution { 
     color: var(--cinza-medio);
-    font-size: 12px; 
+    font-size: 13px; 
     text-align: center; 
-
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(25, 83%, 65%);
 }
