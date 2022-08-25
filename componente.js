@@ -20,4 +20,4 @@ todosBotoes.forEach((opcao) => {
     opcao.addEventListener("click", () => {
         escolha.innerHTML = opcao.innerHTML
     })
-})
+  })
