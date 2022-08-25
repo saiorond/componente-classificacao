@@ -86,7 +86,16 @@ body {
     justify-content: center;
 }
 
-.enviar, .classificar_novamente {
+.obg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.enviar {
     text-align: center;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
@@ -98,7 +107,20 @@ body {
     border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 3px;
+}
+
+.classificar_novamente {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .enviar:hover, .classificar_novamente:hover {
@@ -106,14 +128,6 @@ body {
     color: var(--laranja);
     font-weight: bold;
     cursor: pointer;
-}
-
-.obg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .agradecimento {
@@ -129,14 +143,14 @@ body {
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--branco);   
 }
 
 .texto_agradecimento {
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Overpass', sans-serif;
-    line-height: 18px;
+    line-height: 16px;
     color: var(--cinza-medio);
     text-align: center;
     margin-bottom: 10px;
@@ -164,5 +178,5 @@ body {
 }
 
 .attribution a { 
-    color: hsl(25, 83%, 65%);
+    color: rgb(105, 105, 221)
 }
