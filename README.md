@@ -26,9 +26,7 @@ Esse projeto foi muito interessante de fazer pois há diversos sites que utiliza
 
 #### Demonstração do projeto:
 
-<div align:"center">
 ![Frontend Mentor _ Componente de classificação interativo](https://user-images.githubusercontent.com/98855004/186794236-f2374475-b0d1-424b-8eb2-161068043194.gif)
-</div>
 
 # Tecnologias utilizadas
 
