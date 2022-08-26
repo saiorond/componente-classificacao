@@ -24,6 +24,9 @@ Esse projeto foi muito interessante de fazer pois há diversos sites que utiliza
 
 ![Web required](https://github.com/saiorond/componente-classificacao/blob/main/Imagens%20projeto%20finalizado/screencapture-componente-classificacao-vercel-app-2022-08-24-21_59_33.png)
 
+#### Demonstração do projeto:
+
+![Frontend Mentor _ Componente de classificação interativo](https://user-images.githubusercontent.com/98855004/186794236-f2374475-b0d1-424b-8eb2-161068043194.gif)
 
 # Tecnologias utilizadas
 
